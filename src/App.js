@@ -62,7 +62,7 @@ function SignOut() {
 function ChatRoom() {
   const dummy = useRef();
   const messagesRef = firestore.collection('messages');
-  const query = messagesRef.orderBy('createdAt').limit(25);
+  const query = messagesRef.orderBy('createdAt').limitToLast(100)
 
   const [messages] = useCollectionData(query, { idField: 'id' });
 
@@ -86,8 +86,12 @@ function ChatRoom() {
   }
 
   return (<>
-    <main>
+    <div className="signOut">
 
+      <SignOut />
+    </div>
+    <main>
+  
       {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
 
       <span ref={dummy}></span>

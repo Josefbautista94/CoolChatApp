@@ -105,6 +105,13 @@ button:disabled {
 	margin: 0 auto;
 }
 
+.sign-out {
+	color: #fbfdff;
+	background-color: rgb(56, 56, 143);
+	max-width: 400px;
+	margin: 0 auto;
+}
+
 ul,
 li {
 	text-align: left;
@@ -146,4 +153,8 @@ img {
 	height: 40px;
 	border-radius: 50%;
 	margin: 2px 5px;
+}
+
+.signOut {
+	margin-left: auto;
 }
