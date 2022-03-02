@@ -30,7 +30,9 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	min-height: 100vh;
-	background-color: rgb(40, 37, 53);
+	background-image: url('./images/0c78d7fdd9e46a531fecf84f22f2dae5.gif');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 main {
@@ -67,14 +69,14 @@ form {
 
 form button {
 	width: 20%;
-	background-color: rgb(56, 56, 143);
+	background-color: rgb(47, 76, 110);
 }
 
 input {
 	line-height: 1.5;
 	width: 100%;
 	font-size: 1.5rem;
-	background: rgb(58, 58, 58);
+	background: rgb(58, 99, 160);
 	color: white;
 	outline: none;
 	border: none;
@@ -107,7 +109,7 @@ button:disabled {
 
 .sign-out {
 	color: #fbfdff;
-	background-color: rgb(56, 56, 143);
+	background-color: rgb(85, 32, 33);
 	max-width: 400px;
 	margin: 0 auto;
 }
