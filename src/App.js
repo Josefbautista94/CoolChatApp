@@ -38,6 +38,7 @@ function App() {
         {user ? <ChatRoom /> : <SignIn />}
         
       </section>
+      
     </div>
   );
 }
@@ -88,7 +89,7 @@ function ChatRoom() {
   return (<>
     <div className="signOut">
 
-      <SignOut />
+ <SignOut />
     </div>
     <main>
   
