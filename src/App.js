@@ -87,10 +87,7 @@ function ChatRoom() {
   }
 
   return (<>
-    <div className="signOut">
-
- <SignOut />
-    </div>
+    
     <main>
   
       {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
@@ -104,8 +101,12 @@ function ChatRoom() {
       <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Drop A Message! 😁  " />
 
       <button type="submit" disabled={!formValue}>✉️</button>
+     
 
+        <SignOut />
+      
     </form>
+    
   </>)
 }
 
