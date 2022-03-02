@@ -35,10 +35,11 @@ body {
 
 main {
 	padding: 10px;
-	height: 90vh;
+	height: 91vh;
 	overflow-y: scroll;
 	display: flex;
 	flex-direction: column;
+	margin: 10vh 1 10vh;
 }
 
 main::-webkit-scrollbar {
