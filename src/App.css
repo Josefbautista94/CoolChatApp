@@ -41,7 +41,7 @@ main {
 	overflow-y: scroll;
 	display: flex;
 	flex-direction: column;
-	margin: 10vh 0 10vh;
+	margin: 10vh 1 10vh;
 }
 
 main::-webkit-scrollbar {
