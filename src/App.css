@@ -29,7 +29,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	min-height: 90vh;
+	min-height: 100vh;
 	background-image: url('./images/0c78d7fdd9e46a531fecf84f22f2dae5.gif');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -37,7 +37,7 @@ body {
 
 main {
 	padding: 10px;
-	height: 90vh;
+	height: 80vh;
 	overflow-y: scroll;
 	display: flex;
 	flex-direction: column;
