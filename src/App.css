@@ -37,7 +37,7 @@ body {
 
 main {
 	padding: 10px;
-	height: 85vh;
+	height: 90vh;
 	overflow-y: scroll;
 	display: flex;
 	flex-direction: column;
@@ -57,7 +57,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 form {
-	height: 10vh;
+	height: 8vh;
 	position: fixed;
 	bottom: 0;
 	background-color: rgb(24, 23, 23);
