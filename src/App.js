@@ -89,11 +89,11 @@ function ChatRoom() {
   return (<>
     
     <main>
-  
+  <div>
       {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
 
       <span ref={dummy}></span>
-
+      </div>
     </main>
 
     <div>
